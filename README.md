@@ -13,6 +13,12 @@ Opening fixes, running your tests and merging are part of the hosted Bivouac
 product at [getbivouac.com](https://getbivouac.com) and are **not** performed
 by this Action.
 
+## What you get on a pull request
+
+![Example bivouac-action comment on a dependency-bump pull request](https://raw.githubusercontent.com/Bivouac-VE/Bivouac-Action/main/docs/pr-comment.png)
+
+_Excerpt of a real comment on a PR bumping axios, lodash, minimist and express._
+
 ## How it works
 
 Bivouac's workflow has four steps. This Action performs **Investigate**. Fix,

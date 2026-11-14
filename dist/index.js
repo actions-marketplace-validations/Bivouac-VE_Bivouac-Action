@@ -33194,6 +33194,9 @@ function renderBreakingChanges(findings) {
             if (f.markers.length > 0) {
                 lines.push(`> _Detected markers: ${f.markers.join(', ')}._`);
             }
+            // Blank line so each finding is its own quote block and the next
+            // heading is not swallowed into the quote.
+            lines.push('');
         }
     }
     return lines.join('\n');
